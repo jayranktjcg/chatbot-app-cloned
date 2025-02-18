@@ -1,0 +1,65 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@Modules/*": [
+                "./src/modules/*",
+                "./dist/modules/*"
+            ],
+            "@Middleware/*": [
+                "./src/middleware/*",
+                "./dist/middleware/*"
+            ],
+            "@Config/*": [
+                "./src/config/*",
+                "./dist/config/*"
+            ],
+            "@Utils/*": [
+                "./src/utils/*",
+                "./dist/utils/*"
+            ],
+            "@Constant/*": [
+                "./src/constants/*",
+                "./dist/constants/*"
+            ],
+            "@Entity/*": [
+                "./src/entity/*",
+                "./dist/entity/*"
+            ],
+            "@Subscriber/*": [
+                "./src/subscriber/*",
+                "./dist/subscriber/*"
+            ],
+            "@Types/*": [
+                "./src/types/*",
+                "./dist/types/*"
+            ],
+            "@Validator/*": [
+                "./src/validator/*",
+                "./dist/validator/*"
+            ],
+            "*": [
+                "./node_modules/*",
+                "./src/types/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts", "src/views/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

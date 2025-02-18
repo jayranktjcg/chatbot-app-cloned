@@ -1,0 +1,20 @@
+# Server
+Server/node_modules
+Server/dist
+Server/logs
+
+*.env
+
+package-lock.json
+
+*.log
+
+# Client
+Client/node_modules
+
+
+access-db
+uploads
+build
+.lock
+Client/yarn.lock
